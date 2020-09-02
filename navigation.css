@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  @font-face {
+      font-family: 'robotolight';
+      src: url('roboto-light-webfont.woff2') format('woff2'),
+           url('roboto-light-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  @font-face {
+      font-family: 'robotolight_italic';
+      src: url('roboto-lightitalic-webfont.woff2') format('woff2'),
+           url('roboto-lightitalic-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  body{
+    font-family: robotolight;
+    height: 3000px;
+    background: linear-gradient(55deg, #fffffff8 0%, #ffffffd7 51%, #ffffffb9 85%);
+  /*font-family: sans-serif;*/
+    overflow: hidden;
+    user-select: none;
+  }
+  #header{
+      position: absolute;
+  }
+  .adoriclogo{
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      top: 8px;
+      left: 33px;
+  }
+  nav .logo{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 70px;
+    top: 10px;
+    padding-left: 110px;
+  }
+  nav{
+      position: fixed;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0 3px 15px solid white;
+    justify-content: space-evenly;
+  }
+  nav ul{
+    float: right;
+    margin-right: 580px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: black;
+    display: block;
+    margin: 1px;
+    padding: 0 0 0 20px;
+    line-height: 70px;
+    font-size: 17px;
+    background: #ffffff;
+    transition: .5s;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: light grey;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 5px solid white;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 80px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  nav ul ul li{
+    width: 170px;
+    display: list-item;
+    position: relative;
+    border: 1px solid white;
+    border-top: none;
+  }
+  nav ul ul li a{
+    line-height: 50px;
+  }
+  nav ul ul ul{
+    border-top: none;
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+  nav ul ul li a i{
+    margin-left: 45px;
+  }
+  nav ul li form{
+      position: absolute;
+      top: 30px;
+      right: 35px;
+      margin-left: 200px;
+  }
+  input[type=text] {
+    font-family: robotolight;
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  } 
+  input[type=text]:focus {
+    width: 100%;
+  }
