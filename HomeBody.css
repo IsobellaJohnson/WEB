@@ -10,21 +10,25 @@ body{
       position: fixed;
       width: 200px;
       height: 20px;
-      margin-top: 14%;
-      margin-left: 50%;
+      margin-top: 7%;
+      margin-left: 24%;
       background-color: #ffffffea;
       color: black;
+      
   }
-  b,p:hover{
+    /*b,p:hover{
 cursor: pointer;
 transition: all 5s linear;
-transform: rotate(360deg);
-  }
+transform: rotate(360deg);*/
   .firstpictitle{
       position: fixed;
       font-family: robotolight_italic;
       font-size: 25px;
       margin-top: 10%;
+      margin-left: 48%;
+      min-height: 100px;
+      flex-grow: 1;  
+      order: 1;
 
   }
   .fade-in{

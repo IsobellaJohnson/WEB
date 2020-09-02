@@ -21,19 +21,12 @@
       font-style: normal;
   
   }
-  body{
-    font-family: robotolight;
-    height: 3000px;
-    background: linear-gradient(55deg, #fffffff8 0%, #ffffffd7 51%, #ffffffb9 85%);
-  /*font-family: sans-serif;*/
-    overflow: hidden;
-    user-select: none;
-  }
+
   #header{
-      position: absolute;
+      position: fixed;
   }
   .adoriclogo{
-      position: absolute;
+      position: fixed;
       width: 65px;
       height: 65px;
       top: 8px;
@@ -48,7 +41,7 @@
     padding-left: 110px;
   }
   nav{
-      position: fixed;
+    position: fixed;
     height: 70px;
     background: #ffffff;
     box-shadow: 0 3px 15px solid white;
