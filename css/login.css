@@ -11,12 +11,14 @@
     align-items: center;
 }
 .loginwelcome{
+    font-family: 'Roboto', sans-serif;
+
     font-size: 50px;
     padding: 20px;
 }
 .loginsignup{
-    font-family: 'robotolight';
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
     font-size: 30px;
 }
 .loginform{
@@ -62,7 +64,8 @@ input[type=text], input[type=password] {
     padding-top: 20px;
 }
 h2{
-    font-family: 'robotolight';
+    font-family: 'Roboto', sans-serif;
+
     font-size: 20px;
 }
 .newuserbutton{

@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(55deg, #fffffff8 0%, #ffffffd7 51%, #ffffffb9 85%);
@@ -12,7 +13,6 @@ body{
   }
  /* make div tag, add two images make position absolute, top,bottom,left,right =0*/
   .header{
-    padding-top: 115px;
     padding-bottom: 50px;
     color:rgb(37, 37, 37);
     display:flex;
@@ -28,15 +28,14 @@ body{
   }
   .welcometext{
    order: 2;
-   width: 60%;
-   font-size: 20px;
-   padding: 20px;
+   width: 75%;
+   font-size: 30px;
+   font-weight: 350;
    font-family: 'Roboto', sans-serif;
-   font-weight: lighter;
   }
   .bluebutton{
     display: flex;
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     border-color: #006ce7;
     background-color: #006ce7;
@@ -62,7 +61,6 @@ body{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-top: 50px;
     padding-bottom: 50px;
   }
   .bigpic{
@@ -73,16 +71,19 @@ body{
 .format{
   display: flex;
   font-family: 'Roboto', 'sans-serif';
-  padding: 180px;
+padding-top: 100px;
+padding-bottom: 100px;
+  width: 95%;
 }
   .firstpictitle{
     font-size: 50px;
     color: #222;
   }
   .firstpictitlecont{
-    font-family: 'robotolight';
-    width: 80%;
-    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    
   }
   .firstpic{
       width: 550px;
@@ -91,14 +92,14 @@ body{
   }
   .firstpicbutton{
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+
     color: #006ce7;
     border: none;
     background: none;
 
   }
   .ladypicbutton{
-    font-weight: 700;
     font-size:20px;
     padding-top: 30px;
   }
@@ -112,6 +113,7 @@ body{
   }
   .rightside{
       flex-direction: column;
+      padding-left: 30px;
   }
   .rightside p{
  width: 50%;
@@ -139,7 +141,7 @@ body{
 }
 .secondpictxt{
   color: #222;
-  font-family: 'robotolight';
+  font-family: 'Roboto', sans-serif;
 }
 .secondpic{
     flex-direction: column;
@@ -156,7 +158,8 @@ body{
   color: #222;
 }
 .thirdpictitlecont{
-  font-family: 'robotolight';
+  font-family: 'Roboto', sans-serif;
+
   width: 80%;
   padding-top: 30px;
 }
@@ -190,6 +193,15 @@ body{
   animation: randomimageanimation 5s infinite;
 
 }
+.thirdwhite{
+  padding-left: 30px;
+    display:flex;
+     width: 100%;  
+    justify-content: center;
+     flex-direction: column;
+     padding-left: 120px;
+
+}
 @keyframes randomimageanimation{
   0% { opacity: 1; }
   50% { opacity: 0; }
@@ -221,13 +233,16 @@ to{transform: translateX(200px)}
   align-items: center;
 }
 .centerheader{
+  font-family: 'Roboto', sans-serif;
+
   padding-top: -30px;
 font-size: 50px;
-font-weight: bolder;
+
 }
 .centertext{
   background-color: #ebeff4;
-  font-family: 'robotolight';
+  font-family: 'Roboto', sans-serif;
+
   padding-top: 15px;
   font-size: 30px;
   text-align: center;

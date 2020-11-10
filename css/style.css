@@ -4,23 +4,6 @@
   list-style: none;
   text-decoration: none;
 }
-/*
-@font-face {
-    font-family: 'robotolight';
-    src: url('roboto-light-webfont.woff2') format('woff2'),
-         url('roboto-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'robotolight_italic';
-    src: url('roboto-lightitalic-webfont.woff2') format('woff2'),
-         url('roboto-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;*/
-
-}
 footer{
 background: black;
 color: gray;
