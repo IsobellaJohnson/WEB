@@ -1,0 +1,237 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(55deg, #fffffff8 0%, #ffffffd7 51%, #ffffffb9 85%);
+    color: #222;
+  /*font-family: sans-serif;*/
+    user-select: none;
+  }
+ p{
+      background-color: #ffffffea;
+      color: #222;
+      
+  }
+ /* make div tag, add two images make position absolute, top,bottom,left,right =0*/
+  .header{
+    padding-top: 115px;
+    padding-bottom: 50px;
+    color:rgb(37, 37, 37);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .welcomeheader{
+    order: 1;
+    width: 85%;
+    font-size: 65px;
+    order: 1;
+  }
+  .welcometext{
+   order: 2;
+   width: 60%;
+   font-size: 20px;
+   padding: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: lighter;
+  }
+  .bluebutton{
+    display: flex;
+    font-family: 'roboto';
+    font-weight: bolder;
+    border-color: #006ce7;
+    background-color: #006ce7;
+    border: 1px solid rgb(0,0,0,0);
+    border-radius: 4px;
+    color: white;
+
+  }
+  .headersignup{
+    order: 3;
+    font-size: 20px;
+    padding: 30px 80px;
+    justify-content: center;
+
+  }
+  .navsignup{
+    padding: 15px 30px;
+    margin: 15px 20px;
+    font-size: 15px;
+  }
+  .bigpanel{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .bigpic{
+    width: 40%;
+  }
+
+ /* next thing as you scroll down */
+.format{
+  display: flex;
+  font-family: 'Roboto', 'sans-serif';
+  padding: 180px;
+}
+  .firstpictitle{
+    font-size: 50px;
+    color: #222;
+  }
+  .firstpictitlecont{
+    font-family: 'robotolight';
+    width: 80%;
+    padding-top: 30px;
+  }
+  .firstpic{
+      width: 550px;
+      padding-right: 80px;
+      height: 500px;
+  }
+  .firstpicbutton{
+    display: flex;
+    font-family: 'Roboto';
+    color: #006ce7;
+    border: none;
+    background: none;
+
+  }
+  .ladypicbutton{
+    font-weight: 700;
+    font-size:20px;
+    padding-top: 30px;
+  }
+  .format{
+     display:flex;
+  }
+  .format div{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+  }
+  .rightside{
+      flex-direction: column;
+  }
+  .rightside p{
+ width: 50%;
+  }
+
+  /* next thing as you scroll down*/
+  .container-1{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.box-1{
+    flex: 1;
+
+}
+.box-2{
+    flex: 3;
+}
+.secondpictitle{
+  color: #222;
+  padding-top: -50;
+  font-size: 50px;
+  flex-direction: column;
+}
+.secondpictxt{
+  color: #222;
+  font-family: 'robotolight';
+}
+.secondpic{
+    flex-direction: column;
+    
+}
+.randomimages{
+  position:relative;
+}
+.randomimage0{
+  position: relative;
+}
+.thirdpictitle{
+  font-size: 50px;
+  color: #222;
+}
+.thirdpictitlecont{
+  font-family: 'robotolight';
+  width: 80%;
+  padding-top: 30px;
+}
+.thirdpic{
+    width: 550px;
+    padding-right: 80px;
+    height: 500px;
+}
+
+
+/*try re do this with the pictures on the adoric website under the large sign uo free button*/
+.kathryn{
+  position: absolute;
+  bottom: 77px;
+  right: -320px; 
+  animation-fill-mode: forwards;
+  animation: randomimageanimation 6s infinite;
+}
+.visitor{
+  position: absolute;
+  bottom: 100px;
+  left: -325px;
+  animation-fill-mode: backwards;
+  animation: randomimageanimation 4s infinite;
+}
+.subscribe{
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
+  animation-fill-mode: backwards;
+  animation: randomimageanimation 5s infinite;
+
+}
+@keyframes randomimageanimation{
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.cursor{
+  position: absolute;
+  right: 350px;
+  animation-name: mousemove;
+ animation-direction: backwards;
+  animation-duration: 4s;
+}
+
+.mousepic{
+  position: relative;
+  top: 300px;
+  left: 600px;
+}
+
+@keyframes mousemove{
+from{transform: translateX(0)}
+to{transform: translateX(200px)}
+}
+.centergreypanel{
+  display: flex;
+  background-color: #ebeff4;
+  padding: 250px;
+  flex-direction: column;
+  align-items: center;
+}
+.centerheader{
+  padding-top: -30px;
+font-size: 50px;
+font-weight: bolder;
+}
+.centertext{
+  background-color: #ebeff4;
+  font-family: 'robotolight';
+  padding-top: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+.create{
+  position: absolute;
+}

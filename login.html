@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/HomeBody.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <div class ="logo">
+          <img class = "adoriclogo" src="adoriclogo.png" alt="adoric logo" style="width: 200px; height:90px;">
+      
+      </div>
+
+        <div class="login">
+          <h2 class="loginwelcome"></h2>
+          <p class="loginsignup"></p>
+        </div>
+
+      <form class="loginform" action="">
+        <div class="emailentry">
+        <label for="fname">Email Address</label><br>
+      </div>
+        <input class="emailinput" type="text" id="fname" name="fname" value="Email Address"><br>
+      <div class="passwordentry">
+        <label for="lname">Password</label><br>
+      </div>
+
+        <input class= "passwordinput" type="password" id="lname" name="lname" value="Password"><br><br>
+        <button class="loginsubmit" type="submit">Log in</button>
+      </form> 
+
+      <div class="newuser">
+      <h2>New user?</h2> 
+      <button class= "firstpicbutton newuserbutton" type="button">Sign up free</button>
+    </div>
+
+    <script>
+fetch("untitled.json")
+.then(res => res.json())
+.then(data => {
+let object = data[4]
+let loginwelcome = object.loginwelcome
+document.querySelector(".loginwelcome").innerHTML = loginwelcome
+let loginsignup = object.loginsignup
+document.querySelector(".loginsignup").innerHTML = loginsignup
+})
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto';
+    background-color: white;
+}
+.login{
+    padding-top: 115px;
+    padding-bottom: 50px;
+    color:rgb(37, 37, 37);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginwelcome{
+    font-size: 50px;
+    padding: 20px;
+}
+.loginsignup{
+    font-family: 'robotolight';
+    font-weight: bold;
+    font-size: 30px;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emailentry{
+    color: black;
+}
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+/*.passwordentry{
+    color: black;
+
+}*/
+.loginsubmit{
+    background-color:  #006ce7;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.newuser{
+    color: #444;
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+h2{
+    font-family: 'robotolight';
+    font-size: 20px;
+}
+.newuserbutton{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 700;
+}

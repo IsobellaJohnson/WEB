@@ -1,0 +1,246 @@
+.greypanel{
+    position: fixed;
+    display: flex;
+    background-color: #ebeff4;
+    padding-top: 225px;
+    padding-bottom: 225px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .allgreypaneltext{
+      padding-left: 15px;
+      font-size: 15px;
+  }
+  .greypaneltitle{
+      font-size: 50px;
+  }
+  .greypanel2{
+    display: flex;
+    align-items: center;
+    background-color: #ebeff4;
+    padding-top: 225px;
+    padding-bottom: 225px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .allgreypaneltext2{
+      padding-left: 15px;
+      font-size: 15px;
+  }
+  .greypaneltitle2{
+      font-size: 50px;
+  }
+  .greypanelimage{
+      position: relative;
+      left: -10px;
+  }
+  .summarytitle{
+      padding: 15px;
+      font-size: 20px;
+  }
+  .learnmorebutton{
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 17px;
+    color: #006ce7;
+    border: none;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+}
+summary:before {
+    content: "\2304"; 
+    color: black;
+    margin-right: 5px;
+}
+.reccomendationtext{
+    background-color: #ebeff4;
+    padding-top: 20px;
+}
+.summarytitle{
+    font-weight: bolder;
+}
+.pinkdeskrightside{
+    flex-direction: column;
+}
+.pinkpicformat{
+    position: relative;
+    display: flex;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 180px;
+  }
+.pinkdesk{
+    position: absolute;
+    align-items: center;
+    width: 550px;
+    padding-left: 500px;
+    height: 500px;
+    
+}
+.pinkdesktitle{
+    position: relative;
+    font-size: 50px;
+    color: #222;
+  }
+  .pinkdesktitlecont{
+      position: relative;
+    font-family: 'robotolight';
+    width: 80%;
+    padding-top: 30px;
+  }
+.create{
+    position: relative;
+    text-align: center;
+    left: 550px;
+}
+.c{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: canimation 7s infinite;
+}
+.r{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: ranimation 7s infinite;
+}
+.e{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: eanimation 7s infinite;
+}
+.a{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: aanimation 7s infinite;
+}
+.t{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: tanimation 7s infinite;
+}
+.e2{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: eanimation2 7s infinite;
+}
+.fullstop{
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Noto Serif JP', serif;
+    animation: fullstopanimation 7s infinite;
+}
+@keyframes canimation{
+    0% {opacity:0}
+    12.5% {opacity:1}
+    25% {opacity:1}
+    37.5% {opacity:1}
+    50% {opacity:1}
+    62.5% {opacity:1}
+    75% {opacity:1}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes ranimation{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:1}
+    37.5% {opacity:1}
+    50% {opacity:1}
+    62.5% {opacity:1}
+    75% {opacity:1}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes eanimation{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:0}
+    37.5% {opacity:1}
+    50% {opacity:1}
+    62.5% {opacity:1}
+    75% {opacity:1}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes aanimation{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:0}
+    37.5% {opacity:0}
+    50% {opacity:0}
+    62.5% {opacity:1}
+    75% {opacity:1}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes tanimation{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:0}
+    37.5% {opacity:0}
+    50% {opacity:0}
+    62.5% {opacity:0}
+    75% {opacity:1}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes eanimation2{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:0}
+    37.5% {opacity:0}
+    50% {opacity:0}
+    62.5% {opacity:0}
+    75% {opacity:0}
+    87.5% {opacity:1}
+    100% {opacity:1}
+}
+@keyframes fullstopanimation{
+    0% {opacity:0}
+    12.5% {opacity:0}
+    25% {opacity:0}
+    37.5% {opacity:0}
+    50% {opacity:0}
+    62.5% {opacity:0}
+    75% {opacity:0}
+    87.5% {opacity:0}
+    100% {opacity:1}
+}
+.yellowpencil{
+  height: 400px;
+  width: 500px;
+  padding-right: 100px;
+  height: 33%;
+  width: 40%;
+ 
+}
+.increasesales{
+    position: relative;
+    padding-right: 100px;
+    height: 400px;
+    width: 550px;
+}

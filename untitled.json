@@ -1,0 +1,28 @@
+[
+    
+    {
+        "image": "https://adoric.com/public/images/shopify/block-1.jpg",
+        "header": "Show the right messages at the right time.",
+        "text": "Guide users to their next step by triggering messages according to their behavior & data points."
+    },
+    {
+        "image2": "pictures/mousebackground.jpg",
+        "header2": "3 clicks and the magic begins",
+        "text2": "Lorem ipsum dolor sit amet, omnes oratio altera ex eos,eu his laudem oportere pericula, quo harum option in. In oratio dolorem neglegentur sea, quo elit prompta nominavi ne."
+    },
+    {
+        "image3": "https://adoric.com/public/images/shopify/block-1.jpg",
+        "header3": "Simple, clean, and friendly analytics",
+        "text3": "Adoric provides a one-stop solution for all of your marketing needs for your Shopify store. Hundreds of tailored, preset campaigns are waiting for you."
+    },
+    {
+        "openheader": "A Customised Journey That Converts Visitors Into Customers", 
+        "opentext": "Selling more is all about guiding visitors through the right steps. Create stages and let Adoric build the right path for each person." 
+    },
+    {
+        "loginwelcome": "Welcome back",
+        "loginsignup": "Sign in to continue"
+    }
+]
+
+
